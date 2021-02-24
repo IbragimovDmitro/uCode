@@ -1,0 +1,5 @@
+klist -c
+kinit dibragimov
+kdestroy -A
+
+
