@@ -1,0 +1,41 @@
+h1 {
+    padding: 25px;
+}
+
+.box {
+    background-color: rgb(221, 221, 221);
+    padding: 25px;
+    max-width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    
+    
+}
+
+.box:before {
+    
+    position: absolute;
+    bottom: -25px;
+    left: -1px;
+    width: 100%;
+    height: calc(100% + 50px);
+    content: "";
+    
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    
+} 
+
+.box:after {
+    position: absolute;
+    top: -1px;
+    left: -25px;
+    width: calc(100% + 50px);
+    height: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    content: "";
+    
+
+} 

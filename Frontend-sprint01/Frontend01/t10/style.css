@@ -1,0 +1,29 @@
+A[href="https://www.freecodecamp.org/"] { 
+    color: green;
+   }
+
+ A[href="https://www.sitemaps.org/"] { 
+    color: green;
+   }
+
+A[target="_blank"]:after{
+    content: "\21D2";
+    color: coral;
+}
+
+A[href^="https://"]::before{ 
+    content: "\00BB";
+    padding-right: 10px;
+   }
+
+   A[href^="http://"]::before{ 
+    content: "\00D7";
+    padding-right: 10px;
+    color: red;
+   }
+
+   A[href$="/a"]:hover::after{
+    content:"\2026 last symbol is a ";
+    color: coral;
+    font-style: italic;
+   }

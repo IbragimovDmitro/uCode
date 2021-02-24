@@ -1,0 +1,22 @@
+p {
+    display: inline-block;
+}
+
+.esse {
+    width: 444px;
+    height: 80px;
+
+}
+
+.esse[type="text"] {
+    vertical-align: bottom;
+}
+
+.esse::placeholder {
+    transform: translateY(-33px);
+}
+
+.main {
+    border: 2px solid grey;
+    padding: 20px;
+}

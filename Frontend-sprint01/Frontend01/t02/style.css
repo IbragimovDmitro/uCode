@@ -1,0 +1,84 @@
+th {
+    background-color: #000000;
+}
+
+th {
+
+    color: white;
+}
+
+tr#two {
+    padding-top: 10px;
+    background-color: orange;
+}
+
+tr#three {
+    background-color: green;
+}
+
+tr#four {
+    background-color: darkslateblue;
+}
+
+tr#five {
+    background-color: yellow;
+}
+
+tr#six {
+    background-color: red;
+}
+
+tr#seven {
+    background-color: blueviolet;
+}
+
+img#picone {
+    padding: .9em;
+    border-radius: 35px;    
+    text-align: center;
+    width: 120px;
+    height: 120px;
+}
+
+img#pictwo { 
+    padding: .9em;
+    border-radius: 35px;    
+    text-align: center;
+    width: 120px;
+    height: 120px;
+}
+
+img#picthree { 
+    padding: .9em;
+    border-radius: 35px;    
+    text-align: center;
+    width: 120px;
+    height: 120px; 
+}
+
+img#picfour { 
+    padding: .9em;
+    border-radius: 35px;    
+    text-align: center;
+    width: 120px;
+    height: 120px;
+}
+
+img#picfive { 
+    padding: .9em;
+    border-radius: 35px;    
+    text-align: center;
+    width: 120px;
+    height: 120px; 
+}
+
+img#picsix { 
+    padding: .9em;
+    border-radius: 35px;    
+    text-align: center;
+    width: 120px;
+    height: 120px; 
+}
+
+
+

@@ -1,0 +1,19 @@
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+img {
+  float: left;
+  margin: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  
+}
+
+@media print { 
+    img {
+        float: none;
+    }
+}

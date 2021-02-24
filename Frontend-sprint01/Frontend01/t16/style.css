@@ -1,0 +1,165 @@
+/* body {
+    font: 14px 'Verdana';
+    margin: 0;
+    padding: 0;
+    
+}
+.menu {
+    padding: 150px;
+}
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+    background-color: black;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    background-color: white;
+    border: 1px solid red;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+} */
+
+h1 {
+    text-align: center;
+    color: rgb(180, 252, 180);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.top {
+    background: green;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.yolo {
+    text-align: center;
+    padding-left: 360px;
+}
+
+
+
+
+
+.menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.menu li{
+    width: 300px;
+    list-style: none;
+    background: rgb(255, 23, 23);
+    position: relative;
+    
+
+}
+
+.menu a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 0 15px;
+    height: 40px;
+    line-height: 40px;
+    transition: all 0.7s;
+
+}
+
+.menu a:hover{
+    background: pink;
+     
+}
+
+.menu ul{
+    position: absolute;
+    right: 0;
+    top: 100%;
+    display: none;
+    padding: 0;
+
+}
+
+ .menu li:hover > ul{
+    display: block;
+
+} 
+
+#frut li:hover > ul{
+    display: block;
+}
+
+ #frut ul ul{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+
+} 
+
+
+
+#veg li:hover > ul{
+    display: block;
+}
+
+#veg ul ul{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 100%;
+
+} 
+
+

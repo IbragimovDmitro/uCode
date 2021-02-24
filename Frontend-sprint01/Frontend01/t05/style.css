@@ -1,0 +1,65 @@
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 47px;
+    padding-left: 47px;
+    padding-right: 47px;
+    
+    
+}
+
+span {
+    font-size: 9px;
+    color: rgba(255, 255, 255);
+    opacity: 0.5;
+    text-align: right;
+    
+
+}
+
+.maintxt {
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    text-align: right; 
+    padding-top: 0.8em;
+    padding-right: 0.9em;
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.05em;
+
+}
+
+.pic {
+    position: relative;
+    top: -54px;
+    left: 10px;
+
+}
+#spider {
+    position: relative;
+    top: -22.1px;
+    left: 10px; 
+}
+
+
+#bo {
+    background: linear-gradient(to bottom right, #4568DC, #b06ab3);
+    
+}
+
+#bt {
+    
+    background: linear-gradient(to bottom, #e52d27, #b31217);
+}
+
+#bh {
+    
+    background: linear-gradient(to right, #000, #61045f);
+}
+#bf {
+    
+    background: linear-gradient(to top, #e52d27, #000);
+}
+

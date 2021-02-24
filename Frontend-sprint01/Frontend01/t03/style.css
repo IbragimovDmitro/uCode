@@ -1,0 +1,23 @@
+
+input#two {
+    height: 2em;
+    float: right;
+    width: 4%;
+}
+
+input[type="submit"]#two:hover {
+    color: red;
+}
+
+input#one {
+    width: 96%;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 2em;
+    color: green;
+}
+
+input[type="search"]#one:hover {
+    color: red;
+}
+

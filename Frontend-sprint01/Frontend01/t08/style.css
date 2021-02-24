@@ -1,0 +1,69 @@
+table {
+    border-color: black;
+    background: linear-gradient(to right, #6e0000, antiquewhite);
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.inside {
+    background-color: antiquewhite;
+    border-color: rgba(189, 195, 199, 0.5);
+    color: midnightblue;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+}
+
+.insidered {
+    background-color:#8c0000;
+    color: white;
+
+}
+
+.leftside {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    border: 1px solid;
+    border-color: rgba(189, 195, 199, 0.2);
+
+}
+
+td {
+    color: white;
+    border: 1px solid black;
+    border-color: rgba(189, 195, 199, 0.5)
+}
+
+.bottom {
+    color: white;
+    text-decoration: underline;
+    
+}
+
+a:hover {
+        color: white;
+        transition-duration: 0.7s;
+}
+
+th {
+    color:  #ffe369;
+    padding: 10px;
+    font-weight: bold;
+    background-color: rgba(110, 0, 0, 0.4);
+    border: 1px solid;
+    border-color: rgba(189, 195, 199, 0.5);
+    
+    
+    
+}
+
+#lighter {
+    background-color: rgba(143, 148, 251, 0.1);
+}

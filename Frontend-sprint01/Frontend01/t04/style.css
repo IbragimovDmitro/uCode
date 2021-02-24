@@ -1,0 +1,16 @@
+.btn {
+	display: inline-block;
+	border: 3px solid lightgrey;
+	padding: 50px 120px;
+
+}
+
+.crc {
+	width: 150px;
+	height: 150px;
+	background: red;
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+	position: center, absolute;
+}

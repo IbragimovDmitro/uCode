@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+
+
+
+.container {
+    display: block;
+    justify-content: space-between;
+    
+    /* display: block;
+    
+    flex-basis: 160px; 
+    flex-direction: row;    
+    
+    
+    border: 1px solid black; */
+} 
+
+.box {
+    border: 1px solid rgb(206, 188, 188);
+    margin: 10px;
+    padding: 10px;
+    height: 150px;
+    width: 210px;
+    max-width: 320px;
+    line-height: 1.1;
+    
+    float: left;
+   
+}
+
+.inside {
+    border: 1px solid blue;
+}
+
+@media screen and (max-width: 1020px) {  
+    .box {-ms-flex-wrap: wrap;flex-wrap: wrap;}
+    .box {width: 30%;}
+    .box {width: 50%;}
+    .box {width: 80%;}
+    
+    
+
